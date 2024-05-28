@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:js": "eslint .  .js",
+    "lint:js": "eslint --config eslint.config.js .",
     "lint:css": "stylelint '**/*.css'",
     "lint:html": "htmlhint '**/*.html'",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
