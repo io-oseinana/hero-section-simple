@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js": "eslint --config eslint.config.js .",
-    "lint:css": "stylelint '**/*.css'",
+    "lint:css": "stylelint '**/*.css' --fix",
     "lint:html": "htmlhint '**/*.html'",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
     "start": "npm start "

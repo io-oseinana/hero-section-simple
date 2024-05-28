@@ -46,7 +46,7 @@ jobs:
       run: npm install -g @lhci/cli
 
     - name: Run Lighthouse CI
-      run: lhci autorun
+      run: lhci autorun --config=lighthouserc.json
 
   nodechecker:
     runs-on: ubuntu-latest
