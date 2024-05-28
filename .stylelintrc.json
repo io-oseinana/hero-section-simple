@@ -2,8 +2,7 @@
   "extends": "stylelint-config-standard",
   "plugins": ["stylelint-order"],
   "rules": {
-    "indentation": 2,
-    "string-quotes": "single",
+    "unit-allowed-list": ["em", "rem", "s", "%", "deg", "vh", "vw", "fr", "ms"],
     "order/properties-alphabetical-order": true
   }
 }
