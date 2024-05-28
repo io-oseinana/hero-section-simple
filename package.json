@@ -1,12 +1,12 @@
 {
-  "$schema": "http://json.schemastore.org/package",
+  "$schema": "https://json.schemastore.org/package'",
   "name": "hero-section-simple",
   "version": "1.0.0",
   "description": "<!-- Use Ctrl/Cmd + Shift + V in VS Code to preview this Markdown file. -->",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:js": "eslint . --ext .js",
+    "lint:js": "eslint .  .js",
     "lint:css": "stylelint '**/*.css'",
     "lint:html": "htmlhint '**/*.html'",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
