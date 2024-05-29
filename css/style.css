@@ -188,9 +188,6 @@ body {
     0px 1px 2px 0px rgba(0, 0, 0, 0.06),
     0px 1px 3px 0px rgba(0, 0, 0, 0.1);
     padding: 16px 24px 16px 24px;
-    font-size: 18px;
-    line-height: 28px;
-    font-weight: 500;
     display: flex;
     gap: 10px;
     justify-content: center;
@@ -208,6 +205,9 @@ body {
     }
 
     span {
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 500;
       padding: 0 2px 0 2px;
     }
 }
@@ -253,4 +253,72 @@ body {
 .credits a {
   color: #000;
   font-weight: bold;
+}
+
+@media (min-width: 520px) and (max-width: 768px) {
+ .wrapper {
+  padding: 64px 16px 64px 16px;
+  flex-direction: column;
+  gap: 32px;
+ }
+
+ .wrapper-hero-message {
+  width: 100%;
+ }
+
+ .text-pair h1 {
+  font-size: 48px;
+  line-height: 48px;
+ }
+
+ .cta-button-container {
+  width: 458px;
+ }
+}
+
+@media (min-width: 320px)and (max-width: 535px){
+  .content {
+    border-radius: 4px;
+  }
+
+  .wrapper {
+    padding: 48px 12px 48px 12px;
+    gap: 48px;
+  }
+
+  .wrapper-hero-message {
+    gap: 32px;
+  }
+
+  .text-pair {
+    gap: 16px;
+
+    h1 {
+      font-size: 36px;
+      line-height: 40px;
+    }
+
+    p {
+      font-size: 18px;    }
+  }
+  .cta-button-container {
+    gap: 16px;
+    width: 100%;
+  }
+
+  .cta-button {
+    padding: 12px 20px 12px 20px;
+    gap: 6px;
+    width: 100%;
+
+    span {
+      font-size: 16px;
+      line-height: 24px;
+
+    }
+  }
+
+  .wrapper-hero-image {
+    height: 264px
+  }
 }
